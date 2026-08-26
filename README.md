@@ -1,5 +1,6 @@
 # WezTerm.lua
 
+`
 local wezterm = require("wezterm")
 local config = wezterm.config_builder()
 
@@ -164,5 +165,7 @@ wezterm.on(
 -- Ctrl + Shift + C：コピー
 -- Ctrl + Shift + V：貼り付け
 -- Ctrl + Shift + T：新しいタブ
+
+`
 
 return config
